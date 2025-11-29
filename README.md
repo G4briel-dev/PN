@@ -1,16 +1,97 @@
-# React + Vite
+# 📚 Instituto Biblico Rosh Shekinah – Plataforma Teológica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **Instituto Biblico Rosh Shekinah**, uma plataforma web desenvolvida com o propósito de oferecer cursos teológicos de forma acessível, organizada e intuitiva. Este projeto nasce com a visão de capacitar estudantes, líderes, pregadores e amantes da Palavra a aprofundarem-se nas Escrituras com responsabilidade bíblica e solidez doutrinária.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivo do Projeto
 
-## React Compiler
+Criar um ambiente digital no qual o usuário possa:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ acessar cursos teológicos online  
+✔️ assistir aulas em vídeo  
+✔️ acompanhar módulos e trilhas de conhecimento  
+✔️ baixar materiais complementares  
+✔️ evoluir com base em estudos bíblicos confiáveis e didáticos
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+**Front-end**
+- HTML5
+- CSS3
+- JavaScript
+- React *(em desenvolvimento)*
+
+**Back-end**
+- Node.js
+- Express.js *(em implementação)*
+- SQLite como banco de dados principal
+
+**Banco de Dados**
+- SQLite  
+> Escolhido pela facilidade de configuração e boa performance em ambiente de desenvolvimento local.
+- MongoDB *(planejado para futura migração)*
+
+---
+
+## 🚀 Status do Projeto
+
+📌 **Em desenvolvimento**  
+Atualmente em fase de estruturação das funcionalidades principais, testes de arquitetura e definição da experiência do usuário.
+
+Próximas etapas:
+
+- [ ] Implementar área de login e cadastro
+- [ ] Criar painel de cursos e trilhas
+- [ ] Adicionar player de aulas
+- [ ] Desenvolver API para gerenciamento dos conteúdos
+- [ ] Integração completa com MongoDB
+
+---
+
+## 🎯 Público-Alvo
+
+A plataforma é destinada a:
+
+- Estudantes de Teologia
+- Líderes e ministros
+- Pregadores e professores
+- Cristãos que buscam crescimento espiritual sólido
+
+---
+
+## Visão
+
+> *"Equipar pessoas para viverem o Evangelho com profundidade, entendimento e prática."*
+
+A PN busca unir tecnologia e Reino, oferecendo uma ferramenta moderna e funcional a serviço do ensino bíblico.
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+**Pedro Gabriel**  
+Front-end Developer | Futuro Full Stack  
+📌 GitHub: https://github.com/G4briel-dev
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.  
+Fique à vontade para estudar, contribuir e sugerir melhorias!
+
+---
+
+## Contribuições
+
+Toda contribuição é bem-vinda!  
+Abra uma *issue* ou envie um *pull request*.
+
+> Obrigado por acompanhar o desenvolvimento deste projeto.  
+> Em breve, a Instituto Biblico Rosh Shekinah estará disponível com cursos, ferramentas e conteúdos exclusivos!
+
+---
+
