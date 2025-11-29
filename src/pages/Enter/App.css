@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.box-image  img{
+  width: 60vw;
+  height: 101vh;
+}
+.box-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 101vh;
+  gap: 20px;
+  width: 50vw;
+  background-color: #0d0501;
+}
+.box-logo img{
+  width: 600px;
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 10%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 0.2%, rgba(0,0,0,0) 80%);
+  
+  position: relative;
+  top: -50px;
+}
+
+.inputs-login{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  top: -80px;
+}
+.inputs-login .input-email{
+  width: 400px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+}
+.inputs-login .input-password{
+  width: 340px;
+  height: 60px;
+  border-end-start-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+  border: 1px solid #FFD700;
+  color: #FFD700;
+}
+.inputs-login input::placeholder{
+  color: #FFD700;
+}
+.inputs-login input:focus{
+  outline: none;
+  border: 2px solid #FFA500;
+}
+.inputs-login .login{
+  width: 400px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: #663807;
+  color: #120802;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.inputs-login .login:hover{
+  background-color: #75420b;
+}
+
+.button-eye{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-bottom-left-radius: 1px;
+  border-top-left-radius: 1px;
+  background-color: #75420b;
+  border: none;
+}
+

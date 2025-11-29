@@ -1,0 +1,92 @@
+/* ============ CONTAINER ============ */
+.register-container {
+  display: flex;
+  min-height: 100vh;
+  background: #0d0604;
+}
+
+/* ============ IMAGEM DA ESQUERDA ============ */
+.register-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  width: 70vw;
+  background-image: url('../../assets/Cruz.jpg');
+}
+
+/* ============ AREA DO FORMULÁRIO ============ */
+.register-content {
+  width: 30vw;
+  padding: 7em;
+  background: #0d0501;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.register-content img{
+  width: 400px;
+  mask-image: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 10%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 0.2%, rgba(0,0,0,0) 80%);
+}
+
+/* ============ LOGO ============ */
+.register-logo {
+  width: 350px;
+}
+
+/* ============ TÍTULO ============ */
+.register-title {
+  color: #ffd57a;
+  margin-bottom: 10px;
+}
+
+/* ============ FORM ============ */
+.register-form {
+  width: 100%;
+  display: grid;
+  gap: 12px;
+  
+}
+
+.register-form input {
+  padding: 12px;
+  background: #1e120e;
+  border: 1px solid #4a2d1a;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.register-form input::placeholder {
+  color: #c9a57a;
+}
+
+/* ============ BOTÃO ============ */
+.register-button {
+  background: #75420b;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.register-button:hover {
+  background: #8c520f;
+}
+
+/* ============ LINK PARA LOGIN ============ */
+.register-login-link {
+  color: #ffd57a;
+}
+
+.register-login-link-a {
+  color: #ffd57a;
+  text-decoration: underline;
+}
+.register-login-link-a:hover {
+  color: #ffb347;
+}
